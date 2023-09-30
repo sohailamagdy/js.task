@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(115deg, #340e75, #07000d, #0e0380);
+   
+}
+
+.cont{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+    overflow: hidden;
+    place-content: center;
+    margin: auto;
+    
+
+}
+
+.card {
+
+    height: 400px;
+    width: 300px;
+    border-radius: 2px;
+    transition: background 0.8s;
+    box-shadow: 20px 70px 63px -60px black;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 50px;
+    
+    
+    
+}
+
+.card0{
+
+    background: url(../imgs/nuv.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card0:hover{
+
+    background: url(../imgs/nuv.jpg) left top  no-repeat;
+    background-size: 450px;
+    
+
+}
+
+.card1{
+
+    background: url(../imgs/alh0.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card1:hover{
+
+    background: url(../imgs/alh0.jpg) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+.card2{
+
+    background: url(../imgs/zhonjpg.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card2:hover{
+
+    background: url(../imgs/zhonjpg.jpg) left top no-repeat;
+    background-size: 480px;
+    
+
+}
+.card3{
+
+    background: url(../imgs/itto0.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card3:hover{
+
+    background: url(../imgs/itto0.jpg) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+
+.card4{
+
+    background: url(../imgs/raiden.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card4:hover{
+
+    background: url(../imgs/raiden.jpg) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+
+
+.card5{
+
+    background: url(../imgs/foc.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card5:hover{
+
+    background: url(../imgs/foc.jpg) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+
+
+.card6{
+
+    background: url(../imgs/hu.png);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card6:hover{
+
+    background: url(../imgs/hu.png) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+
+.card7{
+
+    background: url(../imgs/colmbina.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.card7:hover{
+
+    background: url(../imgs/colmbina.jpg) left top  no-repeat;
+    background-size: 400px;
+    
+
+}
+
+.but{
+
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    border: 0;
+    border-radius: 10px;
+    position: absolute;
+    top: 85%;
+    left: 140px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    
+}
+
+.title {
+    padding-top: 10%;
+    font-size: 40px;
+    color: aliceblue;
+    opacity: 0;
+   
+}
+
+h2{
+
+    position: absolute;
+    top: 88%;
+    left: 20px;
+    font-size: 35px;
+    color: aliceblue;
+    letter-spacing: 5px;
+    opacity: 0;
+  
+
+}
+
+
+
+.card:hover .title {
+    opacity: 1;
+}
+
+.card:hover h2 {
+    opacity: 1;
+}
+
+.card:hover .but {
+    opacity: 1;
+}
+
+#content{
+
+    width: 300px;
+    border: 3px solid black;
+    background-color: rgb(100, 99, 99);
+    margin: auto;
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+
+#btn{
+
+    width: 300px;
+    height: 40px;
+    background-color: chocolate;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10PX;
+    margin: 5px 42%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.t-price{
+
+    width: 300px;
+    border: 3px solid black;
+    background-color: rgb(100, 99, 99);
+    margin: auto;
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+
